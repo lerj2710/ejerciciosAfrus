@@ -1,0 +1,1 @@
+el uso de este ejercicio es con flexbox con el uso de que las cajas puedan estar sinmultaneamente uno al lado de la otra . el unico incovente es que no se logro insertar un numero para que de la cantidad de elementos deceados pero colocando manuelmente el script esta funcionando bien

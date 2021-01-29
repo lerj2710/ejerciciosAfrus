@@ -1,0 +1,1 @@
+este ejercicio use un formulario el cual lo valide en una carpeta aparte con js, se logro realizar algunas validaciones que se muestra en pantalla y a medida que va usandolo cambian de condiciones. faltaron validar los caracteres especiales y numeros consecutivos

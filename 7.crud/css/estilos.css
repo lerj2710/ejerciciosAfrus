@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+body{
+    text-align: center;
+    display: block;
+}
+h3{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+table{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+}
+table tbody{
+    text-align: center;
+    display: inline-block;
+}

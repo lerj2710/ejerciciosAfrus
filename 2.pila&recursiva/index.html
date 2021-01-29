@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>pila</title>
+</head>
+<body>
+	 <!-- las decisiones difíciles requieren voluntades -->
+	 
+	<script>
+
+		// Metodo 1
+		 var frases =['las', 'decisiones', 'difíciles', 'requieren', 'voluntades'];
+
+		 var A = frases.pop();
+		 var B = frases.pop();
+		 var C = frases.pop();
+
+
+		 var D = frases.pop();
+		 var E = frases.pop();
+
+		  console.log(A);
+		  console.log(B);
+		  console.log(C);
+		  console.log(D);
+		  console.log(E);
+
+		  // Metodo 2
+
+		  function ArreglosInversa(arreglo, logitud, cadena) {
+		  return logitud == 0 ? c: ArreglosInversa(arreglo, --logitud, (cadena+= '' + arreglo[logitud]));
+		  }
+		  
+		  let frase = ['universidad'];
+
+		  let resultado = ArreglosInversa(frase, frase.length, '');
+		  console.log(frase);
+
+
+		
+
+	</script>
+	
+</body>
+</html>

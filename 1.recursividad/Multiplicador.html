@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+
+		// Problema 1: Se debe crear una solución que dado 2 números X y Y cualesquiera, se obtenga la multiplicación de los mismos SIN usar el operador de multiplicación *.
+
+
+		//primeraRecusividad
+
+		var a = parseInt(prompt("valor 1"));
+		var b = parseInt(prompt("valor 2"));
+
+
+		function multiplicar(a, b){ 
+
+			if(a < b){
+				return multiplicar(b ,a );
+			} else if (b != 0){
+				return a + multiplicar(a, b-1);
+			}else {
+				return 0;
+			}
+		}
+		alert(multiplicar(a,b));
+
+		// console.log(multiplicar(3,5));
+	</script>
+	
+</body>
+</html>

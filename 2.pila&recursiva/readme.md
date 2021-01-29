@@ -1,0 +1,1 @@
+en este ejercicio le consegui dos logicas para poder realizarlo, una es una forma utilizando pila y la otra manera es usando tambien el metodo de recursividad. para ejecutar el codigo lo puede hacer directamente de la consola del navegador o desde la terminal

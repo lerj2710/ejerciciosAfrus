@@ -1,0 +1,1 @@
+este ejercicio solo se utilizo las formas basicas para recorer un arreglo mostrando como se usa el sigo for, math, length. para ejecutar el codigo lo puede hacer directamente de la consola de una terminal buen uso para darle a git

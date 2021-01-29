@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    /* background-color: #b4afae; */
+    overflow: hidden;
+    color: black;
+    background-image: url("../img/fondopoke.jpg");
+    background-size: cover;
+}
+.logoTipo{
+ display:block;
+ margin: auto;
+ margin-bottom: 20px;
+ width: 200px;
+ height: 100px;
+ 
+
+}
+.poke-container{
+    text-align: center;
+    margin: 0 auto;
+    height: 300px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    top: 70px; 
+    position: relative;
+
+}
+.poke-container input{
+    text-align: center;
+    top: 20px; 
+    margin: 5px;
+}
+.poke-container button{
+    margin-top: 20px;
+    margin-bottom: -30px;
+    top: 10px; 
+    margin: 5px;
+}
+.pokemon{
+    width: 150px;
+    height: 150px;
+    margin: 40px auto;
+    display: inline-block;
+}
+span{
+    margin-top: -60px;
+    color: black;
+    position: relative;
+    top: 1px; 
+    /* left: 55px;  */
+    margin: auto;
+}
+.pokecon div{
+    position: relative;
+    top: 20px; 
+    margin: auto; 
+    
+}
+.pokecon div img{
+    width: 500px;
+}
